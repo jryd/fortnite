@@ -10,7 +10,7 @@ $ go get github.com/jryd/fortnite
 
 ## API
 
-### INIT
+### FIRST THINGS FIRST
 
 To access the Fortnite API, you need to have an account on Epic Games. After that you need to get 2 headers that your client uses to access Fortnite.
 
