@@ -38,12 +38,16 @@ fortniteClient := fortnite.NewClient("email address", "password", "client launch
 ```go
 fortniteClient.Login()
 
-fortniteClient.GetStatsBR("jryd", "pc")
-fortniteClient.CheckPlayer("jryd")
 fortniteClient.Lookup("jryd")
+fortniteClient.CheckPlayer("jryd")
+fortniteClient.GetStatsBR("jryd", "pc")
+fortniteClient.GetStatsBRFromID("12345", "pc")
 fortniteClient.GetFortniteNews()
-fortniteClient.CheckStatus()
-//...
+fortniteClient.CheckFortniteStatus()
+fortniteClient.GetFortnitePVEInfo("en")
+fortniteClient.GetStore("en")
+
+fortniteClient.KillSession()
 ```
 
-See more available methods in the [GoDoc](https://godoc.org/github.com/jryd/fortnite).
+More information on the mentods can be found in the [GoDoc](https://godoc.org/github.com/jryd/fortnite).
